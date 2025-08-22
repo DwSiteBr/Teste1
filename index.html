@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grupo Sentinel — Home</title>
+  <meta name="description" content="Grupo Sentinel: Limpaza Profissinal, Portaria, Roçagem e Conservação, Vigilância Patrimonial e Segurança Eletrônica." />
+
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <div id="header">
+    <?php include "partials/header.html"; ?>
+  </div>
+
+  <!-- Conteúdo principal -->
+  <main class="container">
+    <!-- SLIDER -->
+    <div class="slider" id="slider">
+      <div class="slides">
+        <img src="img/portaria.jpg" alt="Portaria 24h">
+        <img src="img/limpeza.jpg" alt="Roçagem e Conservação">
+        <img src="img/placa.jpg" alt="Zeladoria e Apoio">
+      </div>
+      <button class="nav prev">❮</button>
+      <button class="nav next">❯</button>
+    </div>
+
+    <!-- Serviços -->
+    <section>
+      <div class="section-card">
+        <h2>OFERECEMOS</h2>
+        <p>Atendimento humano, próximo e eficiente, projetado para as necessidades reais do seu condomínio e da sua empresa.</p>
+      </div>
+    </section>
+
+    <!-- Cards -->
+    <section>
+      <div class="grid cards">
+        <article class="card">
+          <img src="img/placa.jpg" alt="Limpeza Profissinal">
+          <div class="content">
+            <h3>Limpeza Profissinal</h3>
+            <p>Com a nossa limpeza profissional de placas solares, garantimos: maior vida útil para seu investimento, eficiência máxima desde o primeiro raio de sol, seu sistema trabalhando no pico da performance.</p>
+            <a class="btn" href="seco.html">Saiba mais</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="img/portaria.jpg" alt="Portaria 24h">
+          <div class="content">
+            <h3>Vigilância Patrimonial</h3>
+            <p>Segurança completa para o seu patrimônio. O Grupo Sentinel garante controle de acesso com tecnologia, confiança e profissionais qualificados.</p>
+            <a class="btn" href="portaria.html">Saiba mais</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="img/limpeza.jpg" alt="Roçagem">
+          <div class="content">
+            <h3>Roçagem</h3>
+            <p>Ambientes sempre limpos e bem cuidados com o Grupo Sentinel. Profissionalismo e qualidade para deixar seu espaço impecável!</p>
+            <a class="btn" href="roçagem.html">Saiba mais</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section>
+      <div class="cta">
+        <div>
+          <h3>GRUPO SENTINEL</h3>
+          <p class="cta-legend">DF • GO • RJ • MG</p>
+          <p style="font-size:0.9rem; color:#bbb; margin-top:10px; line-height:1.5;">
+            A <strong>Sentinel</strong> é especializada na gestão de comodidades e terceirização de mão de obra qualificada,
+            oferecendo soluções completas para:
+            <br>• Condomínios
+            • Usinas Solares
+            • Empresas de pequeno e grande porte
+          </p>
+          <a class="btn brand" href="https://desenvolvedorawellington.github.io/SENTINEL-facilite/" target="_blank">
+            <img src="img/whatsapp.png" alt="WhatsApp" style="height:20px;width:20px"> Falar agora
+          </a>
+        </div>
+        <div class="cta-media">
+          <img src="img/equipe.png" alt="Equipe Sentinel" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Botão fixo WhatsApp -->
+  <div class="floating">
+    <a class="btn" href="https://wa.me/556193249005" target="_blank">
+      <img src="img/whatsapp.png" alt="WhatsApp" style="height:20px;width:20px"> Atendimento Virtual
+    </a>
+  </div>
+
+  <!-- Rodapé -->
+  <div id="footer">
+    <?php include "partials/footer.html"; ?>
+  </div>
+
+  <!-- Drawer -->
+  <div id="drawer">
+    <?php include "partials/drawer.html"; ?>
+  </div>
+
+  <!-- JS -->
+  <script src="js/menu.js"></script>
+  <script src="js/slider.js"></script>
+</body>
+</html>
